@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre NKD</title>
+    <title>Sobre AmbiTech</title>
     <link rel="icon" type="image/png" href="Imagens/logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body style="padding-top: 80px;"> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-     
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="index.html">
         <img src="Imagens/logo.png" alt="Logo" width="50" height="50" class="me-2 rounded-circle">
-        <h3><strong>NaturaKosmos Digital</strong></h3>
+        <h3><strong>AmbiTech</strong></h3>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuECD">
         <span class="navbar-toggler-icon"></span>
@@ -92,7 +90,7 @@
 
             <div class="mb-3">
               <label class="form-label">E-mail</label>
-              <input type="email" class="form-control" placeholder="suaconta@email.com">
+              <input type="email" class="form-control"placeholder="suaconta@email.com">
             </div>
 
             <div class="mb-3">
@@ -113,9 +111,10 @@
         <div class="card-body">
           <h4 class="mb-3">Informações</h4>
 
-          <p><strong>📍 Endereço:</strong> Rua. Maria Cristina, 50 - Casqueiro, Cubatão - SP, 11533-160</p>
-          <p><strong>📞 Telefone:</strong> (25) 2525-2525  </p>
-          <p><strong>📧 E-mail:</strong> climatec@ECD.com</p>
+          <p><strong>📍 Endereço:</strong> Rua. Maria Cristina, 50 - Casqueiro, Cubatão - SP, 11533-160
+          <button id="copiarEndereço" class="btn btn-dark btn-sm" value="Rua Maria Cristina, 50. Jardim Casqueiro, Cubatão - SP">Copiar Endereço</button></p>
+          <p><strong>📞 Telefone:</strong> (25) 2525-2525  <button id="CopiarTel" class="btn btn-dark btn-sm" value="(25) 2525-2525">Copiar Telefone</button></p>
+          <p><strong>📧 E-mail:</strong> AmbiTech@gmail.com<button id="copiarEmail" class="btn btn-dark btn-sm" value="AmbiTech@gmail.com">Copiar E-Mail</button></p>
 
           <hr>
 
@@ -136,6 +135,8 @@
     <p class="mb-0">Feito por: Heitor Nobre, Luiz Gustavo, Nicholas Benicio e Gabriel Nogueira </p>
   </footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+     <script src="copiar.js"></script>
 </body>
 
 </html>
