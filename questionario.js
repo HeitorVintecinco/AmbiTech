@@ -95,6 +95,12 @@ const perguntas = [
       indice++;
       mostrarPergunta();
     } else {
+        let quantidade = respostasUsuario.filter(item => item === null).length;
+        let marcou = "Deseja mesmo finalizar o quiz?"
+        if(quantidade > 0)
+            marcou += " Você ainda não marcou "+ quantidade + (quantidade === 1 ? " questão" : " questões");
+        let confirmou = confirm(marcou)
+        if(confirmou)
       finalizarQuiz();
     }
   };
